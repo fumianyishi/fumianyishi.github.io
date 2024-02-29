@@ -1,0 +1,37 @@
+# _config.yml  
+  
+# 站点设置  
+title: 你的站点标题  
+description: 你的站点描述  
+url: "https://fumianyishi.github.io" # 你的 GitHub Pages 网址  
+baseurl: "/MD" # 如果你的站点在子目录中，请输入子目录名称，例如 "/my-site"  
+  
+# 构建设置  
+markdown: kramdown  
+highlighter: rouge  
+permalink: pretty  
+paginate: 5 # 每页显示的帖子数量  
+paginate_path: "/page/:num/"  
+  
+# 导航链接  
+nav:  
+  - title: 首页  
+    url: /  
+  - title: 关于  
+    url: /about/  
+  # 添加更多链接...  
+  
+# 仓库设置  
+repository: fumianyishi/fumianyishi.github.io  
+repository_tree: true  
+  
+# 主题设置  
+theme: jekyll-theme-minimal  
+  
+# 插件  
+plugins:  
+  - jekyll-feed  
+  - jekyll-paginate  
+  
+# 自定义变量  
+# 你可以在这里添加自定义变量，以便在站点中使用
