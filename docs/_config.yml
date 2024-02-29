@@ -4,8 +4,8 @@
 title: 你的站点标题  
 description: 你的站点描述  
 url: "https://fumianyishi.github.io" # 你的 GitHub Pages 网址  
-baseurl: "/MD" # 如果你的站点在子目录中，请输入子目录名称，例如 "/my-site"  
-  
+baseurl: "" # 如果你的站点在子目录中，请输入子目录名称，例如 "/my-site"  
+
 # 构建设置  
 markdown: kramdown  
 highlighter: rouge  
